@@ -1,13 +1,31 @@
 {
   "name": "video-extractor-backend",
   "version": "1.0.0",
-  "description": "Node.js Express video extractor backend with yt-dlp support",
+  "description": "Production-ready video metadata extractor for YouTube, TikTok, Instagram, Facebook, and X/Twitter",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
   },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "video",
+    "extractor",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "facebook",
+    "twitter",
+    "metadata"
+  ],
+  "author": "Jamileth Blandon",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.18.2",
     "cors": "^2.8.5"
   }
 }
+
